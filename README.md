@@ -2,8 +2,11 @@
 
 # 🎃 Eric, [Bogstandard](https://github.com/bogstandard/)
 
-Greetings, hope you're enjoying the autumn 🍂<br>
+Greetings, hope you're enjoying the autumn 🍂
+
 My favourite projects are pinned below but here's a quick rundown on the state of things.
+
+
 
 ## 🌲 [Lapland Golf Club](https://bogstandard.github.io/lapland-golf-club/) is reopening soon!
 An open scoring system to complement [Eric Wastl's](https://github.com/topaz) annual [Advent of Code](https://adventofcode.com). Code golf your solutions and track your running average. Lapland Golf Club allows play alongside friends in any language from any repo and self updates (almost) automatically!
