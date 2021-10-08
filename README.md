@@ -1,4 +1,4 @@
-<img src="https://bogstandard.github.io/lapland-golf-club/assets/images/logo.svg" width="180" height="180" align="right">
+<img src="https://bogstandard.github.io/lapland-golf-club/assets/images/logo.svg" width="140" height="140" align="right">
 
 # 🎃 Eric, [Bogstandard](https://github.com/bogstandard/)
 
