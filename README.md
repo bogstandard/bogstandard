@@ -2,7 +2,7 @@
 
 # 🎃 Eric, [Bogstandard](https://github.com/bogstandard/)
 
-Greetings, hope you're enjoying the autumn 🍂
+Greetings, hope you're enjoying the winter ⛄️
 
 My favourite projects are pinned below but here's a quick rundown on the state of things.
 
