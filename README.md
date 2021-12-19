@@ -19,7 +19,7 @@ Though there's been no recent code changes, the map is still self updating & cur
 A fork of Sphere of Influence is under private development to allow the public to easily create their own maps.
 
 ## 🌧 [RL-Weather](https://github.com/bogstandard/rl-weather) is raining & snowing on players!
-With over [3000 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight Rune Lite plugin provides crunchy old school weather effects to players of OSRS.
+With over [~4500 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight Rune Lite plugin provides crunchy old school weather effects to players of OSRS.
 
 <!--
 **bogstandard/bogstandard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
