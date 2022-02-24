@@ -6,8 +6,6 @@ Greetings, hope you're enjoying the winter ⛄️
 
 My favourite projects are pinned below but here's a quick rundown on the state of things.
 
-The club is powered by [Lapland Golf Course](https://github.com/bogstandard/lapland-golf-course), a custom Jekyll theme for GitHub Pages that allows anyone to establish their own unique private clubs. This theme can be used for any golfing competitions, not just Advent of Code!
-
 ## ⭐️ [Sphere of Influence](http://sphere-of-influence.github.io) is still mapping Soviet Culture!
 Though there's been no recent code changes, the map is still self updating & curating the history and civilian life of the USSR. Meanwhile the [Northpole Beta](https://sphere-of-influence.github.io/#!/northpole) ❄️ showcases just how dynamic the platform can be. 
 
