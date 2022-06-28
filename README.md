@@ -14,7 +14,7 @@ A fork of Sphere of Influence is under private development to allow the public t
 ## 🌧 [RL-Weather](https://github.com/bogstandard/rl-weather) is raining & snowing on players!
 With over [~4500 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight Rune Lite plugin provides crunchy old school weather effects to players of OSRS.
 
-## 🎲 [Dice](https://github.com/bogstandard/dice) is pending publish by RuneLite maintainers!
+## 🎲 [Dice](https://github.com/bogstandard/dice) is now avaliable on the Plugin-Hub!
 This RuneLite plugin adds on-screen animated dynamic dice rolls to bring a table-top experience to the game world.
 
 ## 🌲 [Lapland Golf Club](https://bogstandard.github.io/lapland-golf-club/) is over!
