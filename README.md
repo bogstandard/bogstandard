@@ -12,7 +12,7 @@ Though there's been no recent code changes, the map is still self updating & cur
 A fork of Sphere of Influence is under private development to allow the public to easily create their own maps.
 
 ## 🌧 [RL-Weather](https://github.com/bogstandard/rl-weather) is raining & snowing on players!
-With over [~4500 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight RuneLite plugin provides crunchy old school weather effects to players of OSRS.
+With over [~5400 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight RuneLite plugin provides crunchy old school weather effects to players of OSRS.
 
 ## 🎲 [Dice](https://github.com/bogstandard/dice) is now avaliable on the Plugin-Hub!
 This RuneLite plugin adds on-screen animated dynamic dice rolls to bring a table-top experience to the OSRS game world.
