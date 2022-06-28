@@ -12,10 +12,10 @@ Though there's been no recent code changes, the map is still self updating & cur
 A fork of Sphere of Influence is under private development to allow the public to easily create their own maps.
 
 ## 🌧 [RL-Weather](https://github.com/bogstandard/rl-weather) is raining & snowing on players!
-With over [~4500 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight Rune Lite plugin provides crunchy old school weather effects to players of OSRS.
+With over [~4500 active installs](https://runelite.net/plugin-hub/show/rl-weather) this lightweight RuneLite plugin provides crunchy old school weather effects to players of OSRS.
 
 ## 🎲 [Dice](https://github.com/bogstandard/dice) is now avaliable on the Plugin-Hub!
-This RuneLite plugin adds on-screen animated dynamic dice rolls to bring a table-top experience to the game world.
+This RuneLite plugin adds on-screen animated dynamic dice rolls to bring a table-top experience to the OSRS game world.
 
 ## 🌲 [Lapland Golf Club](https://bogstandard.github.io/lapland-golf-club/) is over!
 An open scoring system to complement [Eric Wastl's](https://github.com/topaz) annual [Advent of Code](https://adventofcode.com). Code golf your solutions and track your running average. Lapland Golf Club allows play alongside friends in any language from any repo and self updates (almost) automatically! The club has closed for the season, see you next year!
