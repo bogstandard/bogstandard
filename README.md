@@ -6,6 +6,10 @@ Greetings, hope you're enjoying the summer! ☀️
 
 My favourite projects are pinned below but here's a quick rundown on the state of things.
 
+## 🃏[Poqueta](https://poqueta.com) is creating daily puzzle games!
+Enjoy a daily poker squares puzzle, generated automatically each morning using a clever bit of math.
+Drag and drop six cards correctly within the square to complete the daily **required hands** both vertically and horizontally. Hands must contain five cards.
+
 ## ⭐️ [Sphere of Influence](http://sphere-of-influence.github.io) is still mapping Soviet Culture!
 Though there's been no recent code changes, the map is still self updating & curating the history and civilian life of the USSR. Meanwhile the [Northpole Beta](https://sphere-of-influence.github.io/#!/northpole) ❄️ showcases just how dynamic the platform can be. 
 
