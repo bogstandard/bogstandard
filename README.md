@@ -1,8 +1,8 @@
 <img src="https://bogstandard.github.io/lapland-golf-club/assets/images/logo.svg" width="140" height="140" align="right">
 
-# 🌴 Eric, [Bogstandard](https://github.com/bogstandard/)
+# ☔️ Eric, [Bogstandard](https://github.com/bogstandard/)
 
-Greetings, hope you're enjoying the summer! ☀️
+Greetings, hope you're enjoying the autumn! 🍂
 
 My favourite projects are pinned below but here's a quick rundown on the state of things.
 
