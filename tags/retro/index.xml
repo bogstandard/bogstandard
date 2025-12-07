@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Retro on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/retro/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/retro/</link>
     <description>Recent content in Retro on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/retro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OM-3 et al; Retro to a fault</title>
-      <link>http://localhost:1313/bogstandard/posts/retro-to-a-fault/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/retro-to-a-fault/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/retro-to-a-fault/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/retro-to-a-fault/</guid>
       <description>&lt;p&gt;Continuing to place the viewfinder in the center of mirrorless cameras &amp;amp; continuing to include the weird pentaprism lump feels a bit daft, to me at least. Sure it looks the part (no accounting for taste) but it&amp;rsquo;s an awkward and a redundant hangover from the days when these things were physically required to be centeral on the camera body for the camera to work.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s no good reason for modern mirrorless cameras to continue to force the user to squish their noses against the back-screen in the age of digital. Rangefinder manufacturers figured this out decades ago; there wasn&amp;rsquo;t a &lt;em&gt;physical requirement&lt;/em&gt; to have a pentaprism and central VF - so they didn&amp;rsquo;t, and now mirrorless cameras don&amp;rsquo;t &lt;em&gt;need&lt;/em&gt; to either, so why continue to ape an SLR era compromise? Taste.&lt;/p&gt;</description>
     </item>
   </channel>

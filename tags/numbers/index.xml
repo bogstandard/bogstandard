@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Numbers on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/numbers/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/numbers/</link>
     <description>Recent content in Numbers on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/numbers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/numbers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Same Difference?</title>
-      <link>http://localhost:1313/bogstandard/posts/same-difference/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/same-difference/</link>
       <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/same-difference/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/same-difference/</guid>
       <description>&lt;p&gt;A friend asked me, are there any number pairs which share the same percentage difference in increasing to, and decreasing back to each other? eg. &lt;em&gt;100&lt;/em&gt; to &lt;em&gt;150&lt;/em&gt; is a &lt;em&gt;50%&lt;/em&gt; increase, but &lt;em&gt;150&lt;/em&gt; to &lt;em&gt;100&lt;/em&gt; is a &lt;em&gt;33.33%&lt;/em&gt; decrease (one third). Are there any which are equal in increasing and decreasing change, so &lt;em&gt;X&lt;/em&gt; to &lt;em&gt;Y&lt;/em&gt; is an &lt;em&gt;A%&lt;/em&gt; increase and &lt;em&gt;Y&lt;/em&gt; to &lt;em&gt;X&lt;/em&gt; is a &lt;em&gt;B%&lt;/em&gt; decrease, where &lt;em&gt;A=B&lt;/em&gt;?&lt;/p&gt;</description>
     </item>
   </channel>

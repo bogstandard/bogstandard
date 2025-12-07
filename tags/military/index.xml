@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Military on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/military/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/military/</link>
     <description>Recent content in Military on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/military/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/military/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fencing Masks for U.S. Infantry &amp; Cavalry, circa 1919</title>
-      <link>http://localhost:1313/bogstandard/posts/fencing-masks-circa-1919/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/fencing-masks-circa-1919/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/fencing-masks-circa-1919/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/fencing-masks-circa-1919/</guid>
       <description>&lt;p&gt;Sometime shortly before January 24, 1919, the A.G. Spalding Brothers Company developed fencing masks for the U.S. Government. Two masks are recorded in the National Archives, one for infantry and one cavalry, a front and side view is presented for each.&lt;/p&gt;&#xA;&lt;p&gt;Curiously it is the cavalry mask which bears the best resemblance to the modern fencing masks we’re familiar with nowadays. It also offers the best protection, while contrastingly the infantry mask offers better visual fidelity – at expense of eye cover.&lt;/p&gt;</description>
     </item>
   </channel>

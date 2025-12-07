@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Culture on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/culture/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/culture/</link>
     <description>Recent content in Culture on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Mount &amp; Blade: Warband, Halal</title>
-      <link>http://localhost:1313/bogstandard/posts/make-mount-blade-warband-halal/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/make-mount-blade-warband-halal/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/make-mount-blade-warband-halal/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/make-mount-blade-warband-halal/</guid>
       <description>&lt;p&gt;It’s always irked me somewhat that the townships of the &lt;a href=&#34;https://mountandblade.fandom.com/wiki/Sarranid_Sultanate&#34;&gt;Sarranid Sultanate&lt;/a&gt; in Mount &amp;amp; Blade: Warband carry pork products. The faction is obviously very Islamic themed, minarets are visible &amp;amp; their banner features a crescent moon. So, despite M&amp;amp;B never explicitly mentioning religion, such an Islamic themed faction should not be anywhere near pork.&lt;/p&gt;&#xA;&lt;p&gt;But, this glaring anatopism is fixable with some very light-touch modding.&lt;/p&gt;&#xA;&lt;!-- More --&gt;&#xA;&lt;p&gt;By editing the &lt;em&gt;item_kinds1.txt&lt;/em&gt; within the games &lt;em&gt;Modules&lt;/em&gt; folder, we can find the item definitions for &lt;em&gt;itm_pork&lt;/em&gt; &amp;amp; &lt;strong&gt;itm_sausages&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Mystery Colours of Russia’s 91-93 Flag</title>
-      <link>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.m.wikipedia.org/w/index.php?title=File:Flag_of_Russia_(1991%E2%80%931993).svg&amp;amp;limit=500&#34;&gt;Wikipedia’s flag for Russia 1991 – 1993 has had a decade long edit war&lt;/a&gt;, with 58 revisions over which colours should be used.&lt;/p&gt;&#xA;&lt;p&gt;Some editors are convinced that the colours for the Russian flag in those years was brighter than today’s darker toned flag. Other’s aren’t so convinced, and believe the tones have always been the current darker variant. There’s confusing evidence and usage of both. There’s also a third set of tones which appear to match darker evening variants of the colours, though this kind is seen less often.&lt;/p&gt;</description>
     </item>
   </channel>

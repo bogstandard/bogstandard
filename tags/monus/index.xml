@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monus on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/monus/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/monus/</link>
     <description>Recent content in Monus on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/monus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/monus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>∸ Monus without Max</title>
-      <link>http://localhost:1313/bogstandard/posts/monus-without-max/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/monus-without-max/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/monus-without-max/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/monus-without-max/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Monus&lt;/a&gt; is an fun operator, its symbol is a dot above a minus; &lt;code&gt;∸&lt;/code&gt;. Monus is truncated subtraction, or in clearer terms, subtraction where the result stops at zero, eg. if you perform &lt;em&gt;5 ∸ 10&lt;/em&gt;, you get &lt;em&gt;0&lt;/em&gt; instead of &lt;em&gt;-5&lt;/em&gt;. But &lt;em&gt;5 – 3&lt;/em&gt; will result in &lt;em&gt;2&lt;/em&gt; as normal.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Wikipedia article for Monus&lt;/a&gt; describes a few methods to perform the operation which involve conditionals or abstract functions like &lt;em&gt;Max(x, 0)&lt;/em&gt; but my preferred method is the simple &lt;em&gt;(x+|x|)/2&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

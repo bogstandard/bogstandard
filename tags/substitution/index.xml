@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Substitution on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/substitution/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/substitution/</link>
     <description>Recent content in Substitution on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/substitution/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/substitution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Substituting Games Workshop Scatter &amp; Artillery Dice with a Standard D10</title>
-      <link>http://localhost:1313/bogstandard/posts/sub-gw-artillery-dice-with-d10/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/sub-gw-artillery-dice-with-d10/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/sub-gw-artillery-dice-with-d10/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/sub-gw-artillery-dice-with-d10/</guid>
       <description>&lt;style&gt;&#xA;td {&#xA;  white-space: nowrap;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;Here’s a system to use a single D10 dice (the kind that “points” a direction when at rest) as substitute for a set of Games Workshop (GW) Scatter &amp;amp; Artillery Dice (the kind used for Warhammer Fantasy 5th Ed.). This system is long-winded, daft and best ignored. If you need to substitute some lost Scatter &amp;amp; Artillery Dice, just use regular D6s.&lt;/p&gt;&#xA;&lt;p&gt;To begin let us lay out possible results of the two proprietary GW dice, each dice has 6 faces.&lt;/p&gt;</description>
     </item>
   </channel>

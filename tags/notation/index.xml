@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notation on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/notation/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/notation/</link>
     <description>Recent content in Notation on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/notation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/notation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supposed Notation/Shorthand for Fencing Plays</title>
-      <link>http://localhost:1313/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</guid>
       <description>&lt;p&gt;There is not as far as I’m aware a common, system agnostic, simple textual notation for fencing; moves that can be written without advanced ligatures or illustrations. There’s a pretty extensive history of written notation for dance, which in terms of motion is fairly close to fencing, but none besides &lt;a href=&#34;https://en.wikipedia.org/wiki/Labanotation&#34;&gt;Labanotation&lt;/a&gt; (which is used by the US for the copyright of dance) have significantly caught on and endured in history. Dance/Movement notation is a relatively niche field and jam-packed with advanced symbols and flexible geometry. Without resorting to clunky spoken language, it’s tough to describe a sequence of bodily movements quickly, casually and succinctly in non-graphical form.&lt;/p&gt;</description>
     </item>
   </channel>

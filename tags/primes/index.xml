@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Primes on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/primes/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/primes/</link>
     <description>Recent content in Primes on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/primes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/primes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Absurd Gödel Numbering</title>
-      <link>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/absurd-godel-numbering/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/absurd-godel-numbering/</guid>
       <description>&lt;p&gt;Let’s take &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del_numbering&#34;&gt;Gödel Numbering&lt;/a&gt; and make it ridiculous by attempting to create a single character numbering system.&lt;/p&gt;&#xA;&lt;p&gt;The Fundamental Theorem of Arithmetic states that every natural number greater than 1 can be written as a product of prime numbers, and that up to rearrangement of the factors, this product is unique.&lt;/p&gt;&#xA;&lt;p&gt;Here we go one step further and perform the same trick on the exponents, so it’s primes all the way down (or up) while also denoting zeroes and doing the same for them too. It’s a little tricky to explain.&lt;/p&gt;</description>
     </item>
   </channel>

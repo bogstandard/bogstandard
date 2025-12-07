@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Russia on Bogstandard</title>
-    <link>http://localhost:1313/bogstandard/tags/russia/</link>
+    <link>https://bogstandard.github.io/bogstandard/tags/russia/</link>
     <description>Recent content in Russia on Bogstandard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/bogstandard/tags/russia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bogstandard.github.io/bogstandard/tags/russia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Mystery Colours of Russia’s 91-93 Flag</title>
-      <link>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</link>
+      <link>https://bogstandard.github.io/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</guid>
+      <guid>https://bogstandard.github.io/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.m.wikipedia.org/w/index.php?title=File:Flag_of_Russia_(1991%E2%80%931993).svg&amp;amp;limit=500&#34;&gt;Wikipedia’s flag for Russia 1991 – 1993 has had a decade long edit war&lt;/a&gt;, with 58 revisions over which colours should be used.&lt;/p&gt;&#xA;&lt;p&gt;Some editors are convinced that the colours for the Russian flag in those years was brighter than today’s darker toned flag. Other’s aren’t so convinced, and believe the tones have always been the current darker variant. There’s confusing evidence and usage of both. There’s also a third set of tones which appear to match darker evening variants of the colours, though this kind is seen less often.&lt;/p&gt;</description>
     </item>
   </channel>
