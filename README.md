@@ -4,7 +4,7 @@
 
 Greetings, hope you're enjoying the autumn! 🍂
 
-My favourite projects are pinned below but here's a quick rundown on the state of things.
+My favourite projects are pinned below but there's a quick rundown on the state of things below. I sometimes also convey thoughts poorly on [a blog hosted here](https://bogstandard.github.io/bogstandard/).
 
 ## 🃏[Poqueta](https://poqueta.com) is creating daily puzzle games!
 Enjoy a daily poker squares puzzle, generated automatically each morning using a clever bit of math.
