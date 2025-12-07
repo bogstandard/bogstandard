@@ -1,0 +1,46 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+{{ .Content }}
+<div class="image-grid">
+
+    {{ range sort .Data.Pages "Date" "desc" }}
+
+        {{ $_title := "" }}
+        {{ $_Permalink := .Permalink }}
+        
+        {{ if and (isset .Params "image") .Params.image }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}" class="img-link-titular">
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+            {{ with $image }}
+                {{ $thumb := .Resize "800x" }}
+                <img loading="lazy" src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+
+                {{/* override this so we dont repeat the featured image */}}
+                {{ $_title = .Title }}
+                
+            {{end}}
+            </a>
+        {{ end }}
+
+        {{ with .Resources.ByType "image" }}
+            {{ range . }}
+            
+            {{ $subThumb := .Resize "800x" }}
+
+                {{/* dont render if its the featured image again */}}
+
+                {{ if ne $_title .Title }}
+                <a href="{{ $_Permalink }}#{{ .Title | urlize }}" title="{{ $_title }}">
+                        <img loading="lazy" src="{{ $subThumb.RelPermalink }}" alt="{{ $_title }}" class="img-responsive">
+                </a>
+                {{ end }}
+            
+            {{ end }}
+        {{ end }}
+
+
+    {{ end }}
+
+
+</div>
+{{ end }}

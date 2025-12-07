@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/bogstandard/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bogstandard/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bogstandard/bogstandard/posts/correspondence-poker-by-seeded-random/</title>
+    
+    <meta name="description" content="Scrapbook of poorly conveyed ideas. Here you&#39;ll find posts on mostly history, photography, mathematics &amp; fencing. Nothing here is to be taken too seriously.">
+    
+    
+    <meta name="author" content="Bogstandard">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/console.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Correspondence Poker by Seeded Random" />
+<meta property="og:description" content="Scrapbook of poorly conveyed ideas. Here you&#39;ll find posts on mostly history, photography, mathematics &amp; fencing. Nothing here is to be taken too seriously." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random/" /><meta property="article:published_time" content="2024-07-04T00:00:00+00:00" />
+
+
+
+<meta name="twitter:title" content="Correspondence Poker by Seeded Random"/>
+<meta name="twitter:description" content="I enjoy correspondence chess, plaintext computing, stateless APIs and Jamstack, and I also enjoy poker; so a while back I created a means of playing poker by correspondence via linked webpages: Plaintext-Poker (repo).
+This utilises a seeded random (actually Java’s Random ported to Javascript!) to ensure that players stay on the same deck and same game state without any memory being used anywhere. It does this in a stateless fashion by using the seed to perform the exact same previous actions for each stage, given the seed via the URL, with a player number, the number of players and the game stage also included."/>
+</head>
+<body class="terminal page-frame">
+
+    <div class="page-hero"></div>
+
+    <div class="page-main">
+      <div class="container">
+          <div class="terminal-nav">
+            <header class="terminal-logo">
+              <div class="logo terminal-prompt">
+                
+                
+                <a href="http://localhost:1313/bogstandard/" class="no-style site-name">Bogstandard</a>:~# 
+                <span href='http://localhost:1313/bogstandard/posts'>posts</span>/<span href='http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random'>correspondence-poker-by-seeded-random</span>/</div></header>
+            
+                <nav class="terminal-menu">
+              <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                  
+                  <li><a href="http://localhost:1313/bogstandard/about/" typeof="ListItem">about/</a></li>
+                  
+                  <li><a href="http://localhost:1313/bogstandard/posts/" typeof="ListItem">posts/</a></li>
+                  
+              </ul>
+            </nav>
+          </div>
+      </div>
+
+      <div class="container animated zoomIn fast" >
+          
+<article class="post-single">
+<h1>Correspondence Poker by Seeded Random</h1>
+
+Jul. 4, 2024
+
+
+<br/><br/>
+<p>I enjoy <a href="https://en.wikipedia.org/wiki/Correspondence_chess">correspondence chess</a>, <a href="https://en.wikipedia.org/wiki/Plaintext">plaintext</a> computing, <a href="https://en.wikipedia.org/wiki/Stateless_protocol">stateless APIs</a> and <a href="https://en.wikipedia.org/wiki/Jamstack">Jamstack</a>, and I also enjoy poker; so a while back I created a means of playing poker by correspondence via linked webpages: <a href="https://bogstandard.github.io/plaintext-poker/">Plaintext-Poker</a> (<a href="https://github.com/bogstandard/plaintext-poker">repo</a>).</p>
+<p>This utilises a seeded random (actually Java’s Random ported to Javascript!) to ensure that players stay on the same deck and same game state without any memory being used anywhere. It does this in a stateless fashion by using the seed to perform the exact same previous actions for each stage, given the seed via the URL, with a player number, the number of players and the game stage also included.</p>
+<p>For instance, if it’s the flop, everyone gets the seed <em>RANDOMSEED</em>, then upon opening the link, each player has the deck shuffled, dealt and flopped randomly according to that seed. But only has <em>their</em> cards displayed to them according to their player number, and the amount of cards in the river by the given game stage. Essentially the entire dealer’s game (outside of betting) is predetermined by the seed. In poker the players’ actions have no effect on the dealer’s actions, which is useful.</p>
+<p>Imagine Jacob and Toby are playing poker together, but only one person can be in the room at a time. The dealer in this instance is a machine. Jacob enters the room first and is dealt his hand, so the dealer gives him 2 cards face up, deals 2 cards for Toby face down and flops 3 cards. Jacob then leaves the room having seen his hand and the flop.</p>
+<p>Toby then enters the room, the dealer conjures a new deck, exactly shuffled into the same sequence as before then deals Jacob 2 cards face down, then deals Toby 2 cards for him to see, then flops 3 cards. Because the deck is exactly shuffled into the same sequence as before the cards are all the same as when Jacob was in the room. They’re playing the same game but with an indefinite time gap.</p>
+<p>This correspondence continues until the game is up, with Jacob and Toby passing notes outside of the dealer’s concern as to whether they are betting, checking or folding, but it’s up to them to be honest about their cards. If someone is dishonest, at least in this implementation it’s trivial to edit the URL to discover an opponents cards and discover a cheat.</p>
+<p><em>I’m hoping soon to create a more friendly interface for the linked proof of concept implementation, if and when I do; I’ll update this post.</em></p>
+
+
+</article>
+
+          <div class="footer">
+
+    <p>
+    Explore tags: 
+    
+        <a href="/bogstandard/tags/cameras">cameras</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/cards">cards</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/correspondence">correspondence</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/culture">culture</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/design">design</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/dice">dice</a>
+        <small><span>(4)</span></small>
+    
+        <a href="/bogstandard/tags/dogs">dogs</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/equipment">equipment</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/fencing">fencing</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/flags">flags</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/games">games</a>
+        <small><span>(4)</span></small>
+    
+        <a href="/bogstandard/tags/godel">godel</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/history">history</a>
+        <small><span>(7)</span></small>
+    
+        <a href="/bogstandard/tags/kgb">kgb</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/law">law</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/math">math</a>
+        <small><span>(6)</span></small>
+    
+        <a href="/bogstandard/tags/medicine">medicine</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/mental-health">mental-health</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/military">military</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/modding">modding</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/monus">monus</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/mount-and-blade">mount-and-blade</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/notation">notation</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/number-theory">number-theory</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/numbers">numbers</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/operators">operators</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/percentages">percentages</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/photography">photography</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/poker">poker</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/primes">primes</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/puzzles">puzzles</a>
+        <small><span>(3)</span></small>
+    
+        <a href="/bogstandard/tags/randomness">randomness</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/retro">retro</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/russia">russia</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/security">security</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/soviet">soviet</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/sports">sports</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/substitution">substitution</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/uk">uk</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/warhammer">warhammer</a>
+        <small><span>(1)</span></small>
+    
+    </p>
+
+    <p>
+    Powered by <a href="https://gohugo.io/">Hugo</a> with a modified
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    </p>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

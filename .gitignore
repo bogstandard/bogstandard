@@ -1,0 +1,4 @@
+.DS_Store
+# public
+content/photos/*
+resources/_gen

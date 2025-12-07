@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Bogstandard</title>
+    <link>http://localhost:1313/bogstandard/tags/math/</link>
+    <description>Recent content in Math on Bogstandard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bogstandard/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>∸ Monus without Max</title>
+      <link>http://localhost:1313/bogstandard/posts/monus-without-max/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/monus-without-max/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Monus&lt;/a&gt; is an fun operator, its symbol is a dot above a minus; &lt;code&gt;∸&lt;/code&gt;. Monus is truncated subtraction, or in clearer terms, subtraction where the result stops at zero, eg. if you perform &lt;em&gt;5 ∸ 10&lt;/em&gt;, you get &lt;em&gt;0&lt;/em&gt; instead of &lt;em&gt;-5&lt;/em&gt;. But &lt;em&gt;5 – 3&lt;/em&gt; will result in &lt;em&gt;2&lt;/em&gt; as normal.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Wikipedia article for Monus&lt;/a&gt; describes a few methods to perform the operation which involve conditionals or abstract functions like &lt;em&gt;Max(x, 0)&lt;/em&gt; but my preferred method is the simple &lt;em&gt;(x+|x|)/2&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brute Force Maths, Solving Any Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/brute-force-maths/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/brute-force-maths/</guid>
+      <description>&lt;p&gt;While trying to solve the opposing face for what I’ve dubbed as “Butterfly” configured dice, I had a bit of an epiphany and realised all my recent dice problems could be brute forced by exploiting zero to a power, that 00 equals 1 but 0¹ ᵒʳ ᵍʳᵉᵃᵗᵉʳ equals 0 allows us to essentially conditionally select what result we get from an input. The trick gives us an If statement without the notation, we can cheat around my self imposed no-ifs rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solving “Left Handed” Turned Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</guid>
+      <description>&lt;p&gt;Revisiting my &lt;a href=&#34;http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/&#34;&gt;post about solving the opposing face of various dice configurations&lt;/a&gt; I pondered how a “left handed” turned dice might work. Say rather than placing five and six at the top and bottom of the dice, what if the medieval maker placed one and two in their place, then spiralling around the outside, three, four, five, six? Can we leverage our previous monster of an equation to solve it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oddly Configured Dice; Finding the Opposing Face</title>
+      <link>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</guid>
+      <description>&lt;p&gt;On common six sided dice, all opposing faces add to seven (this configuration is called “sevens”). Knowing this, you can always find the value of the opposing face with the simple equation; &lt;em&gt;7 – x&lt;/em&gt; = &lt;em&gt;y&lt;/em&gt;, where &lt;em&gt;x&lt;/em&gt; is the known face and &lt;em&gt;y&lt;/em&gt; is the opposing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Same Difference?</title>
+      <link>http://localhost:1313/bogstandard/posts/same-difference/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/same-difference/</guid>
+      <description>&lt;p&gt;A friend asked me, are there any number pairs which share the same percentage difference in increasing to, and decreasing back to each other? eg. &lt;em&gt;100&lt;/em&gt; to &lt;em&gt;150&lt;/em&gt; is a &lt;em&gt;50%&lt;/em&gt; increase, but &lt;em&gt;150&lt;/em&gt; to &lt;em&gt;100&lt;/em&gt; is a &lt;em&gt;33.33%&lt;/em&gt; decrease (one third). Are there any which are equal in increasing and decreasing change, so &lt;em&gt;X&lt;/em&gt; to &lt;em&gt;Y&lt;/em&gt; is an &lt;em&gt;A%&lt;/em&gt; increase and &lt;em&gt;Y&lt;/em&gt; to &lt;em&gt;X&lt;/em&gt; is a &lt;em&gt;B%&lt;/em&gt; decrease, where &lt;em&gt;A=B&lt;/em&gt;?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Absurd Gödel Numbering</title>
+      <link>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</guid>
+      <description>&lt;p&gt;Let’s take &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del_numbering&#34;&gt;Gödel Numbering&lt;/a&gt; and make it ridiculous by attempting to create a single character numbering system.&lt;/p&gt;&#xA;&lt;p&gt;The Fundamental Theorem of Arithmetic states that every natural number greater than 1 can be written as a product of prime numbers, and that up to rearrangement of the factors, this product is unique.&lt;/p&gt;&#xA;&lt;p&gt;Here we go one step further and perform the same trick on the exponents, so it’s primes all the way down (or up) while also denoting zeroes and doing the same for them too. It’s a little tricky to explain.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

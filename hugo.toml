@@ -1,0 +1,37 @@
+baseURL = 'https://bogstandard.github.io/bogstandard/'
+languageCode = 'en-us'
+title =  'Bogstandard'
+theme = "hugo-theme-sly-console"
+
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[params]
+  # description
+  description = "Scrapbook of poorly conveyed ideas. Here you'll find posts on mostly history, photography, mathematics & fencing. Nothing here is to be taken too seriously."
+
+  # author metadata
+  author = "Bogstandard"
+
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  # Enable Photos section
+  enablePhotos = false
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  # [[params.navlinks]]
+  # name = "photos/"
+  # url = "photos/"

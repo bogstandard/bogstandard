@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Randomness on Bogstandard</title>
+    <link>http://localhost:1313/bogstandard/tags/randomness/</link>
+    <description>Recent content in Randomness on Bogstandard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bogstandard/tags/randomness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Correspondence Poker by Seeded Random</title>
+      <link>http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random/</guid>
+      <description>&lt;p&gt;I enjoy &lt;a href=&#34;https://en.wikipedia.org/wiki/Correspondence_chess&#34;&gt;correspondence chess&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Plaintext&#34;&gt;plaintext&lt;/a&gt; computing, &lt;a href=&#34;https://en.wikipedia.org/wiki/Stateless_protocol&#34;&gt;stateless APIs&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Jamstack&#34;&gt;Jamstack&lt;/a&gt;, and I also enjoy poker; so a while back I created a means of playing poker by correspondence via linked webpages: &lt;a href=&#34;https://bogstandard.github.io/plaintext-poker/&#34;&gt;Plaintext-Poker&lt;/a&gt; (&lt;a href=&#34;https://github.com/bogstandard/plaintext-poker&#34;&gt;repo&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;This utilises a seeded random (actually Java’s Random ported to Javascript!) to ensure that players stay on the same deck and same game state without any memory being used anywhere. It does this in a stateless fashion by using the seed to perform the exact same previous actions for each stage, given the seed via the URL, with a player number, the number of players and the game stage also included.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

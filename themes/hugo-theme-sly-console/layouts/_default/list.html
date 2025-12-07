@@ -1,0 +1,25 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+<br/>
+{{ .Content }}
+
+<div class="posts-list">
+{{ range sort .Data.Pages "Date" "desc" }}
+    {{ if not .Params.private }}
+        <div class="post">
+            <div>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+                <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+                {{ .Summary }}
+                {{ if .Truncated }}
+                    <p>
+                        <a href="{{ .RelPermalink }}">More…</a>
+                    </p>
+                {{ end }}
+                </div>
+        </div>
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}

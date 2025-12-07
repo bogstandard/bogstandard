@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/bogstandard/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bogstandard/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bogstandard/bogstandard/posts/dice-find-the-opposing-face/</title>
+    
+    <meta name="description" content="Scrapbook of poorly conveyed ideas. Here you&#39;ll find posts on mostly history, photography, mathematics &amp; fencing. Nothing here is to be taken too seriously.">
+    
+    
+    <meta name="author" content="Bogstandard">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="http://localhost:1313/bogstandard/hugo-theme-console/css/console.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+       <meta property="og:title" content="Oddly Configured Dice; Finding the Opposing Face" />
+<meta property="og:description" content="Scrapbook of poorly conveyed ideas. Here you&#39;ll find posts on mostly history, photography, mathematics &amp; fencing. Nothing here is to be taken too seriously." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/" /><meta property="article:published_time" content="2024-02-09T00:00:00+00:00" />
+
+
+
+<meta name="twitter:title" content="Oddly Configured Dice; Finding the Opposing Face"/>
+<meta name="twitter:description" content="On common six sided dice, all opposing faces add to seven (this configuration is called “sevens”). Knowing this, you can always find the value of the opposing face with the simple equation; 7 – x = y, where x is the known face and y is the opposing."/>
+</head>
+<body class="terminal page-frame">
+
+    <div class="page-hero"></div>
+
+    <div class="page-main">
+      <div class="container">
+          <div class="terminal-nav">
+            <header class="terminal-logo">
+              <div class="logo terminal-prompt">
+                
+                
+                <a href="http://localhost:1313/bogstandard/" class="no-style site-name">Bogstandard</a>:~# 
+                <span href='http://localhost:1313/bogstandard/posts'>posts</span>/<span href='http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face'>dice-find-the-opposing-face</span>/</div></header>
+            
+                <nav class="terminal-menu">
+              <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                  
+                  <li><a href="http://localhost:1313/bogstandard/about/" typeof="ListItem">about/</a></li>
+                  
+                  <li><a href="http://localhost:1313/bogstandard/posts/" typeof="ListItem">posts/</a></li>
+                  
+              </ul>
+            </nav>
+          </div>
+      </div>
+
+      <div class="container animated zoomIn fast" >
+          
+<article class="post-single">
+<h1>Oddly Configured Dice; Finding the Opposing Face</h1>
+
+Feb. 9, 2024
+
+
+<br/><br/>
+<p>On common six sided dice, all opposing faces add to seven (this configuration is called “sevens”). Knowing this, you can always find the value of the opposing face with the simple equation; <em>7 – x</em> = <em>y</em>, where <em>x</em> is the known face and <em>y</em> is the opposing.</p>
+<p>For all faces, we have the following equations;</p>
+<pre><code>7 - x = y
+7 - 1 = 6
+7 - 2 = 5
+7 - 3 = 4
+7 - 4 = 3
+7 - 5 = 2
+7 - 6 = 1
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><img src="seven-225x300.png" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">The net of a sevens configured dice</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="prime-configured-dice">Prime Configured Dice</h3>
+<p>However, not all dice are sevens configured, in ancient times dice were often “primes”, or prime configured. These prime configured dice have opposing faces which add to the distinct primes three, five and eleven. This works by one opposing two, making three; three opposing four making five; five opposing six making eleven.</p>
+<p>The means for calculating this when spoken is fairly simple; if the known face is odd, then add one, otherwise, if known face is even then subtract one.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><img src="prime-225x300.png" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">The net of a primes configured dice</td>
+      </tr>
+  </tbody>
+</table>
+<p>However, writing this in pretty maths is less easy, my current best attempt is;</p>
+<pre><code>(x - 1) + 2(x mod 2) = y
+(1 - 1) + 2(1 mod 2) = 2
+(2 - 1) + 2(2 mod 2) = 1
+(3 - 1) + 2(3 mod 2) = 4
+(4 - 1) + 2(4 mod 2) = 3
+(5 - 1) + 2(5 mod 2) = 6
+(6 - 1) + 2(6 mod 2) = 5
+</code></pre>
+<p>It’s worth noting that I loathe using conditionals in equations, I’ve deliberately gone out my way to avoid them. There is great joy to be won finding equations that work without any <em>ifs</em> or branching. I like a solid machine with no moving parts.</p>
+<h3 id="turned-dice">Turned Dice</h3>
+<p>A “turned” dice is trickier to conceptualise it’s faces pair as 1-3, 2-4 and 5-6. With exception of five and six the faces run sequentially along one rotational axis. If you’re having trouble thinking about it, grab a nearby trusty cube and hold your fingers against the faces to visualise how one to four spiral around one axis.</p>
+<p>Unlike sevens and primes dice we don’t have a regular difference to exploit between the opposing faces (|x-7| and x±1 respectively). Nor is the odd/even pattern of the primes found here either. Finding an equation to find the opposing face on a turned dice is far trickier.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="turned-225x300.png" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">The net of a turned configured dice</td>
+      </tr>
+  </tbody>
+</table>
+<p>With turned dice, we know the following statements are true;</p>
+<ol>
+<li>The difference is always ±2 except for five and six, theirs is ±1.</li>
+<li>Five and six are the only mixed odd-even pairing.</li>
+<li>It seemingly follows two patterns and is just awful to think about.</li>
+</ol>
+<p>Anyway, after a great deal of thought and madness and doubts there was a means to produce such an equation without conditional elements, I managed to spit out the following nightmare;</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="turned-solved-maybe.png" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">One condition free solution to turned dice</td>
+      </tr>
+  </tbody>
+</table>
+<p>What’s happening here is roughly the following;</p>
+<ol>
+<li>We perform the same equation to solve our Primes dice, this immediately lets us solve five and six.</li>
+<li>We multiply this by <em>z(x) + ..</em> this keeps five and six solved, since <em>z</em> proves 1 when five and six are offered.</li>
+<li>To solve the others we again use the <em>z</em> function, but negate it, so everything becomes 1 except for five and six, which become 0.</li>
+<li>Then with this found 1, we traverse 2 indexes around a looping set of {one, two, three, four}, for example; one becomes three and three becomes one, four becomes two. It wraps around. We multiply this by our second use of the <em>z</em> function, which when inverted only affects numbers under five.</li>
+<li>This multiplied number is then added to the left side. For five and six, it’s zero plus six and five, respectively. For the others it is also their opposing faces.</li>
+</ol>
+<p>Finding this solution took a fair amount of time, at times I wasn’t certain it could be done without conditionals. I’m glad I didn’t give up.</p>
+<p>I’m fully expecting there to be a far, far better way to solve Turned Dice, I wouldn’t call myself a mathematician by any stretch. I’m sure there’s someone out there who could put this to shame.</p>
+<p>Nonetheless. The messy equation above is just my first attempt at the conundrum of turned dice, I can only hope my future endeavours are a little neater.</p>
+<h2 id="update-left-handed--a-tidier-solution-found">Update; Left Handed &amp; a Tidier Solution Found</h2>
+<p>This post was followed up by one exploring how to find the <a href="/bogstandard/posts/left-handed-turned-dice/">left handed version of it</a>, then later I got my wish and found a far cleaner solution to the entire problem; <a href="/bogstandard/posts/brute-force-maths/">brute force</a>.</p>
+<h3 id="further-reading">Further Reading</h3>
+<p>You can read the history of Sevens, Primes and Turned dice in the fantastic paper; <a href="https://www.researchgate.net/publication/322466782_The_Evolution_of_Cubic_Dice_from_the_Roman_through_Post-Medieval_Period_in_the_Netherlands">The Evolution of Cubic Dice: From the Roman Through Post-Medieval Period in the Netherlands</a> [<a href="https://www.researchgate.net/profile/Jelmer-Eerkens/publication/322466782_The_Evolution_of_Cubic_Dice_from_the_Roman_through_Post-Medieval_Period_in_the_Netherlands/links/5a5fb4fdaca2727352441292/The-Evolution-of-Cubic-Dice-From-the-Roman-Through-Post-Medieval-Period-in-the-Netherlands.pdf">PDF</a>] by <em>Jelmer W. Eerkens, University of California, Davis</em> and <em>Alex de Voogt, Drew University</em>. The paper also covers the United Kingdom, despite the title.</p>
+<p>I wrote and tested these equations using Javascript, and then used the excellent <a href="https://www.text2latex.com/">Text2Latex</a> and <a href="https://www.quicklatex.com/">QuickLatex</a> tools to quickly convert them to mathematical notation. These tools do a great job but be sure to check nothings been mangled by the machine ghosts.</p>
+
+</article>
+
+          <div class="footer">
+
+    <p>
+    Explore tags: 
+    
+        <a href="/bogstandard/tags/cameras">cameras</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/cards">cards</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/correspondence">correspondence</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/culture">culture</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/design">design</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/dice">dice</a>
+        <small><span>(4)</span></small>
+    
+        <a href="/bogstandard/tags/dogs">dogs</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/equipment">equipment</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/fencing">fencing</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/flags">flags</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/games">games</a>
+        <small><span>(4)</span></small>
+    
+        <a href="/bogstandard/tags/godel">godel</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/history">history</a>
+        <small><span>(7)</span></small>
+    
+        <a href="/bogstandard/tags/kgb">kgb</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/law">law</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/math">math</a>
+        <small><span>(6)</span></small>
+    
+        <a href="/bogstandard/tags/medicine">medicine</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/mental-health">mental-health</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/military">military</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/modding">modding</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/monus">monus</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/mount-and-blade">mount-and-blade</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/notation">notation</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/number-theory">number-theory</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/numbers">numbers</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/operators">operators</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/percentages">percentages</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/photography">photography</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/poker">poker</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/primes">primes</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/puzzles">puzzles</a>
+        <small><span>(3)</span></small>
+    
+        <a href="/bogstandard/tags/randomness">randomness</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/retro">retro</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/russia">russia</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/security">security</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/soviet">soviet</a>
+        <small><span>(2)</span></small>
+    
+        <a href="/bogstandard/tags/sports">sports</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/substitution">substitution</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/uk">uk</a>
+        <small><span>(1)</span></small>
+    
+        <a href="/bogstandard/tags/warhammer">warhammer</a>
+        <small><span>(1)</span></small>
+    
+    </p>
+
+    <p>
+    Powered by <a href="https://gohugo.io/">Hugo</a> with a modified
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    </p>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

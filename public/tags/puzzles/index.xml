@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puzzles on Bogstandard</title>
+    <link>http://localhost:1313/bogstandard/tags/puzzles/</link>
+    <description>Recent content in Puzzles on Bogstandard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bogstandard/tags/puzzles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brute Force Maths, Solving Any Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/brute-force-maths/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/brute-force-maths/</guid>
+      <description>&lt;p&gt;While trying to solve the opposing face for what I’ve dubbed as “Butterfly” configured dice, I had a bit of an epiphany and realised all my recent dice problems could be brute forced by exploiting zero to a power, that 00 equals 1 but 0¹ ᵒʳ ᵍʳᵉᵃᵗᵉʳ equals 0 allows us to essentially conditionally select what result we get from an input. The trick gives us an If statement without the notation, we can cheat around my self imposed no-ifs rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solving “Left Handed” Turned Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</guid>
+      <description>&lt;p&gt;Revisiting my &lt;a href=&#34;http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/&#34;&gt;post about solving the opposing face of various dice configurations&lt;/a&gt; I pondered how a “left handed” turned dice might work. Say rather than placing five and six at the top and bottom of the dice, what if the medieval maker placed one and two in their place, then spiralling around the outside, three, four, five, six? Can we leverage our previous monster of an equation to solve it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oddly Configured Dice; Finding the Opposing Face</title>
+      <link>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</guid>
+      <description>&lt;p&gt;On common six sided dice, all opposing faces add to seven (this configuration is called “sevens”). Knowing this, you can always find the value of the opposing face with the simple equation; &lt;em&gt;7 – x&lt;/em&gt; = &lt;em&gt;y&lt;/em&gt;, where &lt;em&gt;x&lt;/em&gt; is the known face and &lt;em&gt;y&lt;/em&gt; is the opposing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bogstandard</title>
+    <link>http://localhost:1313/bogstandard/</link>
+    <description>Recent content on Bogstandard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bogstandard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OM-3 et al; Retro to a fault</title>
+      <link>http://localhost:1313/bogstandard/posts/retro-to-a-fault/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/retro-to-a-fault/</guid>
+      <description>&lt;p&gt;Continuing to place the viewfinder in the center of mirrorless cameras &amp;amp; continuing to include the weird pentaprism lump feels a bit daft, to me at least. Sure it looks the part (no accounting for taste) but it&amp;rsquo;s an awkward and a redundant hangover from the days when these things were physically required to be centeral on the camera body for the camera to work.&lt;/p&gt;&#xA;&lt;p&gt;There&amp;rsquo;s no good reason for modern mirrorless cameras to continue to force the user to squish their noses against the back-screen in the age of digital. Rangefinder manufacturers figured this out decades ago; there wasn&amp;rsquo;t a &lt;em&gt;physical requirement&lt;/em&gt; to have a pentaprism and central VF - so they didn&amp;rsquo;t, and now mirrorless cameras don&amp;rsquo;t &lt;em&gt;need&lt;/em&gt; to either, so why continue to ape an SLR era compromise? Taste.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analogue Correspondence Card Games</title>
+      <link>http://localhost:1313/bogstandard/posts/analogue-correspondence-card-games/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/analogue-correspondence-card-games/</guid>
+      <description>&lt;p&gt;To play a card game like poker by correspondence would require the decks to be exactly the same sequence in both locations similar to correspondence chess where the boards must be exactly the same states in both locations. (For simplicity I am speaking on the assumption of two players, but for &lt;em&gt;n&lt;/em&gt; players the rule remains.)&lt;/p&gt;&#xA;&lt;p&gt;However unlike chess where the players can openly see the state of the board, the players in a card game like poker must be unaware of the state of the deck. This makes things trickier, and so both players must perform a shared seeded blind shuffle of their decks, the goal being to have both shuffle their decks fairly but result in the same unknown sequences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Correspondence Poker by Seeded Random</title>
+      <link>http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random/</link>
+      <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/correspondence-poker-by-seeded-random/</guid>
+      <description>&lt;p&gt;I enjoy &lt;a href=&#34;https://en.wikipedia.org/wiki/Correspondence_chess&#34;&gt;correspondence chess&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Plaintext&#34;&gt;plaintext&lt;/a&gt; computing, &lt;a href=&#34;https://en.wikipedia.org/wiki/Stateless_protocol&#34;&gt;stateless APIs&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Jamstack&#34;&gt;Jamstack&lt;/a&gt;, and I also enjoy poker; so a while back I created a means of playing poker by correspondence via linked webpages: &lt;a href=&#34;https://bogstandard.github.io/plaintext-poker/&#34;&gt;Plaintext-Poker&lt;/a&gt; (&lt;a href=&#34;https://github.com/bogstandard/plaintext-poker&#34;&gt;repo&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;This utilises a seeded random (actually Java’s Random ported to Javascript!) to ensure that players stay on the same deck and same game state without any memory being used anywhere. It does this in a stateless fashion by using the seed to perform the exact same previous actions for each stage, given the seed via the URL, with a player number, the number of players and the game stage also included.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>∸ Monus without Max</title>
+      <link>http://localhost:1313/bogstandard/posts/monus-without-max/</link>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/monus-without-max/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Monus&lt;/a&gt; is an fun operator, its symbol is a dot above a minus; &lt;code&gt;∸&lt;/code&gt;. Monus is truncated subtraction, or in clearer terms, subtraction where the result stops at zero, eg. if you perform &lt;em&gt;5 ∸ 10&lt;/em&gt;, you get &lt;em&gt;0&lt;/em&gt; instead of &lt;em&gt;-5&lt;/em&gt;. But &lt;em&gt;5 – 3&lt;/em&gt; will result in &lt;em&gt;2&lt;/em&gt; as normal.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Monus&#34;&gt;Wikipedia article for Monus&lt;/a&gt; describes a few methods to perform the operation which involve conditionals or abstract functions like &lt;em&gt;Max(x, 0)&lt;/em&gt; but my preferred method is the simple &lt;em&gt;(x+|x|)/2&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supposed Notation/Shorthand for Fencing Plays</title>
+      <link>http://localhost:1313/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/supposed-notation-shorthand-for-fencing-plays/</guid>
+      <description>&lt;p&gt;There is not as far as I’m aware a common, system agnostic, simple textual notation for fencing; moves that can be written without advanced ligatures or illustrations. There’s a pretty extensive history of written notation for dance, which in terms of motion is fairly close to fencing, but none besides &lt;a href=&#34;https://en.wikipedia.org/wiki/Labanotation&#34;&gt;Labanotation&lt;/a&gt; (which is used by the US for the copyright of dance) have significantly caught on and endured in history. Dance/Movement notation is a relatively niche field and jam-packed with advanced symbols and flexible geometry. Without resorting to clunky spoken language, it’s tough to describe a sequence of bodily movements quickly, casually and succinctly in non-graphical form.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brute Force Maths, Solving Any Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/brute-force-maths/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/brute-force-maths/</guid>
+      <description>&lt;p&gt;While trying to solve the opposing face for what I’ve dubbed as “Butterfly” configured dice, I had a bit of an epiphany and realised all my recent dice problems could be brute forced by exploiting zero to a power, that 00 equals 1 but 0¹ ᵒʳ ᵍʳᵉᵃᵗᵉʳ equals 0 allows us to essentially conditionally select what result we get from an input. The trick gives us an If statement without the notation, we can cheat around my self imposed no-ifs rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solving “Left Handed” Turned Dice</title>
+      <link>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/left-handed-turned-dice/</guid>
+      <description>&lt;p&gt;Revisiting my &lt;a href=&#34;http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/&#34;&gt;post about solving the opposing face of various dice configurations&lt;/a&gt; I pondered how a “left handed” turned dice might work. Say rather than placing five and six at the top and bottom of the dice, what if the medieval maker placed one and two in their place, then spiralling around the outside, three, four, five, six? Can we leverage our previous monster of an equation to solve it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Mount &amp; Blade: Warband, Halal</title>
+      <link>http://localhost:1313/bogstandard/posts/make-mount-blade-warband-halal/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/make-mount-blade-warband-halal/</guid>
+      <description>&lt;p&gt;It’s always irked me somewhat that the townships of the &lt;a href=&#34;https://mountandblade.fandom.com/wiki/Sarranid_Sultanate&#34;&gt;Sarranid Sultanate&lt;/a&gt; in Mount &amp;amp; Blade: Warband carry pork products. The faction is obviously very Islamic themed, minarets are visible &amp;amp; their banner features a crescent moon. So, despite M&amp;amp;B never explicitly mentioning religion, such an Islamic themed faction should not be anywhere near pork.&lt;/p&gt;&#xA;&lt;p&gt;But, this glaring anatopism is fixable with some very light-touch modding.&lt;/p&gt;&#xA;&lt;!-- More --&gt;&#xA;&lt;p&gt;By editing the &lt;em&gt;item_kinds1.txt&lt;/em&gt; within the games &lt;em&gt;Modules&lt;/em&gt; folder, we can find the item definitions for &lt;em&gt;itm_pork&lt;/em&gt; &amp;amp; &lt;strong&gt;itm_sausages&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oddly Configured Dice; Finding the Opposing Face</title>
+      <link>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/dice-find-the-opposing-face/</guid>
+      <description>&lt;p&gt;On common six sided dice, all opposing faces add to seven (this configuration is called “sevens”). Knowing this, you can always find the value of the opposing face with the simple equation; &lt;em&gt;7 – x&lt;/em&gt; = &lt;em&gt;y&lt;/em&gt;, where &lt;em&gt;x&lt;/em&gt; is the known face and &lt;em&gt;y&lt;/em&gt; is the opposing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How The Dangerous Dogs Act got Defanged in ’97</title>
+      <link>http://localhost:1313/bogstandard/posts/dangerous-dogs-act-defanged-in-97/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/dangerous-dogs-act-defanged-in-97/</guid>
+      <description>&lt;p&gt;The 1991 Dangerous Dogs Act has hit the news again as &lt;em&gt;“XL Bully”&lt;/em&gt; (a type of Pit-Bull cross), becomes officially banned in England &amp;amp; Wales. Bully enthusiasts nationwide had been convinced that at the stroke of midnight, thousands of Bullies would be euthanised at once by complicit kennels and dog-catchers.&lt;/p&gt;&#xA;&lt;p&gt;Maybe, if the Act had any real bite.&lt;/p&gt;&#xA;&lt;p&gt;Those dogs spared the hand of Death will instead live out their days muzzled, neutered (like most dogs), microchipped (like most dogs) and always leashed when in public (like most dogs). These banned bullies must be registered on an &lt;em&gt;“Index of Exempted Dogs&lt;/em&gt;“, shall not be gifted, sold or bred, and err, that’s about it. Most of these restrictions are already followed as-norm by responsible dog owners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The KGB Roughly Compared to Modern Day</title>
+      <link>http://localhost:1313/bogstandard/posts/kgb-roughly-compared-to-modern-day/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/kgb-roughly-compared-to-modern-day/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.historytoday.com/archive/feature/kgb-after-stalin&#34;&gt;January’s issue of the History Today has a great article&lt;/a&gt; on the creation and changing attitudes of the KGB after Stalin’s death. One fact which leapt out was the large number of persons being followed by the KGB in 1967; almost 6,750, according to a leaked report.&lt;/p&gt;&#xA;&lt;p&gt;That sounds an awful lot, but is it?&lt;/p&gt;&#xA;&lt;p&gt;By 1967 the population of the USSR was almost 241,720,000 (the rough figure for 1970), 6,750 people is just 0.000028% of the population, or 7 in 25,000,000 people being followed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Mystery Colours of Russia’s 91-93 Flag</title>
+      <link>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/mystery-colours-of-russias-91-93-flag/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.m.wikipedia.org/w/index.php?title=File:Flag_of_Russia_(1991%E2%80%931993).svg&amp;amp;limit=500&#34;&gt;Wikipedia’s flag for Russia 1991 – 1993 has had a decade long edit war&lt;/a&gt;, with 58 revisions over which colours should be used.&lt;/p&gt;&#xA;&lt;p&gt;Some editors are convinced that the colours for the Russian flag in those years was brighter than today’s darker toned flag. Other’s aren’t so convinced, and believe the tones have always been the current darker variant. There’s confusing evidence and usage of both. There’s also a third set of tones which appear to match darker evening variants of the colours, though this kind is seen less often.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Same Difference?</title>
+      <link>http://localhost:1313/bogstandard/posts/same-difference/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/same-difference/</guid>
+      <description>&lt;p&gt;A friend asked me, are there any number pairs which share the same percentage difference in increasing to, and decreasing back to each other? eg. &lt;em&gt;100&lt;/em&gt; to &lt;em&gt;150&lt;/em&gt; is a &lt;em&gt;50%&lt;/em&gt; increase, but &lt;em&gt;150&lt;/em&gt; to &lt;em&gt;100&lt;/em&gt; is a &lt;em&gt;33.33%&lt;/em&gt; decrease (one third). Are there any which are equal in increasing and decreasing change, so &lt;em&gt;X&lt;/em&gt; to &lt;em&gt;Y&lt;/em&gt; is an &lt;em&gt;A%&lt;/em&gt; increase and &lt;em&gt;Y&lt;/em&gt; to &lt;em&gt;X&lt;/em&gt; is a &lt;em&gt;B%&lt;/em&gt; decrease, where &lt;em&gt;A=B&lt;/em&gt;?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Absurd Gödel Numbering</title>
+      <link>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/absurd-godel-numbering/</guid>
+      <description>&lt;p&gt;Let’s take &lt;a href=&#34;https://en.wikipedia.org/wiki/G%C3%B6del_numbering&#34;&gt;Gödel Numbering&lt;/a&gt; and make it ridiculous by attempting to create a single character numbering system.&lt;/p&gt;&#xA;&lt;p&gt;The Fundamental Theorem of Arithmetic states that every natural number greater than 1 can be written as a product of prime numbers, and that up to rearrangement of the factors, this product is unique.&lt;/p&gt;&#xA;&lt;p&gt;Here we go one step further and perform the same trick on the exponents, so it’s primes all the way down (or up) while also denoting zeroes and doing the same for them too. It’s a little tricky to explain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Substituting Games Workshop Scatter &amp; Artillery Dice with a Standard D10</title>
+      <link>http://localhost:1313/bogstandard/posts/sub-gw-artillery-dice-with-d10/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/sub-gw-artillery-dice-with-d10/</guid>
+      <description>&lt;style&gt;&#xA;td {&#xA;  white-space: nowrap;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;Here’s a system to use a single D10 dice (the kind that “points” a direction when at rest) as substitute for a set of Games Workshop (GW) Scatter &amp;amp; Artillery Dice (the kind used for Warhammer Fantasy 5th Ed.). This system is long-winded, daft and best ignored. If you need to substitute some lost Scatter &amp;amp; Artillery Dice, just use regular D6s.&lt;/p&gt;&#xA;&lt;p&gt;To begin let us lay out possible results of the two proprietary GW dice, each dice has 6 faces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fencing Masks for U.S. Infantry &amp; Cavalry, circa 1919</title>
+      <link>http://localhost:1313/bogstandard/posts/fencing-masks-circa-1919/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/fencing-masks-circa-1919/</guid>
+      <description>&lt;p&gt;Sometime shortly before January 24, 1919, the A.G. Spalding Brothers Company developed fencing masks for the U.S. Government. Two masks are recorded in the National Archives, one for infantry and one cavalry, a front and side view is presented for each.&lt;/p&gt;&#xA;&lt;p&gt;Curiously it is the cavalry mask which bears the best resemblance to the modern fencing masks we’re familiar with nowadays. It also offers the best protection, while contrastingly the infantry mask offers better visual fidelity – at expense of eye cover.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transcription: Lobotomy banned in Soviet as Cruel</title>
+      <link>http://localhost:1313/bogstandard/posts/transcription-lobotomy-banned-in-soviet-as-cruel/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bogstandard/posts/transcription-lobotomy-banned-in-soviet-as-cruel/</guid>
+      <description>&lt;p&gt;Below is a hand-digitisation of the &lt;em&gt;New York Times&lt;/em&gt; article reporting the outlawing of lobotomies by the Soviet Union in the 1950s.&lt;/p&gt;&#xA;&lt;p&gt;The United States and Europeans continued the practice for decades after, as late as 1980 in France.&lt;/p&gt;&#xA;&lt;p&gt;The history of Mental Health institutions, or asylums, are a keen interest of mine and I’ll be posting more with regards to them in future. The artist &lt;a href=&#34;https://www.theguardian.com/theguardian/2013/aug/05/cats-louis-wain-illustrations&#34;&gt;Louis Wain&lt;/a&gt;, who’s artwork is used for the site logo (the two fencing cats), and other artwork around the site was himself sadly a patient of several mental hospitals.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
