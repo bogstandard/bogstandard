@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on Bogstandard</title>
+    <link>https://bogstandard.github.io/bogstandard/photos/</link>
+    <description>Recent content in Photos on Bogstandard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bogstandard.github.io/bogstandard/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shoreham Port</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/shoreham/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/shoreham/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quiet Places</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/quiet-places/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/quiet-places/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palace Pier, Brighton</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/brighton-palace-pier/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/brighton-palace-pier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lagoon, Hove</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/hove-lagoon/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/hove-lagoon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malta</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/malta-2024/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/malta-2024/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lossiemouth</title>
+      <link>https://bogstandard.github.io/bogstandard/photos/lossiemouth/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://bogstandard.github.io/bogstandard/photos/lossiemouth/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
