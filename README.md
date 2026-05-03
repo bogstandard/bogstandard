@@ -8,6 +8,9 @@ My favourite projects are pinned below but there's a quick rundown on the state 
 Enjoy a daily poker squares puzzle, generated automatically each morning using a clever bit of math.
 Drag and drop six cards correctly within the square to complete the daily **required hands** both vertically and horizontally. Hands must contain five cards.
 
+## 🌊[UK Tide Times](https://github.com/bogstandard/tide-times-uk/tree/main) are being reported by the Swiftbar Plugin!
+Scrappy SwiftBar plugin that displays real-time tide information for UK coastal locations, with support for tide stations from tidetimes.org.uk.
+
 ## ⭐️ [Sphere of Influence](http://sphere-of-influence.github.io) is still mapping Soviet Culture!
 Though there's been no recent code changes, the map is still self updating & curating the history and civilian life of the USSR. Meanwhile the [Northpole Beta](https://sphere-of-influence.github.io/#!/northpole) ❄️ showcases just how dynamic the platform can be. 
 
